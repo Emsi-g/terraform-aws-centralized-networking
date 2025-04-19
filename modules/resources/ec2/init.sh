@@ -20,4 +20,4 @@ systemctl enable apache2
 HOSTNAME=$(hostname)
 
 # Write custom message to index.html
-echo "Hello $HOSTNAME" > /var/www/html/index.html
+echo "Hello world!!! My server hostname is $HOSTNAME" > /var/www/html/index.html
